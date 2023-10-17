@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	ln = 0;
 	while ((r = getline(&l, &length, x)) != -1)
 	{
-		l_number++;
+		ln;
 		oc = strtok(l, DELIMITERS);
 		if (oc == NULL || strncmp(oc, "#", 1) == 0)
 			continue;
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 			push(&s, ln, n);
 		}
 		else
-			oc_struct(oc, &s, ln);
+			opcode_struct(oc, &s, ln);
 	}
 
 	free_all(s, l, x);
