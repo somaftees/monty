@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	char *n;
 	unsigned int ln;
 	size_t length = 0;
-	ssize_t r;
+	ssize_t read;
 
 	if (argc != 2)
 	{
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	}
 
 	ln = 0;
-	while ((r = getline(&l, &length, x)) != -1)
+	while ((read = getline(&l, &length, x)) != -1)
 	{
 		ln++;
 		oc = strtok(l, DELIMITERS);
