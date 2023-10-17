@@ -146,5 +146,5 @@ void _mod(stack_t **stack, unsigned int line_number)
 
 	pop(stack, line_number);
 
-	(*stack)->n = result;
+	(*stack)->n = add_result;
 }
