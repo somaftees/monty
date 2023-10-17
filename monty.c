@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	ln = 0;
 	while ((r = getline(&l, &length, x)) != -1)
 	{
-		ln;
+		ln++;
 		oc = strtok(l, DELIMITERS);
 		if (oc == NULL || strncmp(oc, "#", 1) == 0)
 			continue;
