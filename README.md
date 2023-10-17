@@ -94,9 +94,9 @@ All files should be compiled with `gcc -Wall -Werror -Wextra -pedantic *.c -o mo
 - `structs.h` - struct declarations
 - `monty.c` - main function and loop
 - `opcode_struct.c` - function that searches through struct of function pointers
-- `print_functions.c` - functions that print values from stack
-- `stack_functions.c` - functions that manipulate the stack
-- `calc_functions.c` - math functions performed on values on the stack
+- `printing.c` - functions that print values from stack
+- `stack_f.c` - functions that manipulate the stack
+- `calculations.c` - math functions performed on values on the stack
 - `util_functions.c` - utility functions
 
 -------------------
