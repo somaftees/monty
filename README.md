@@ -5,7 +5,7 @@
 -------------------
 
 ## Usage
-All files should be compiled with `gcc -Wall -Werror -Wextra -pedantic *.c -o monty`.
+ All files should be compiled with `gcc -Wall -Werror -Wextra -pedantic *.c -o monty`.
 
 **Usage:** `monty file`
 
