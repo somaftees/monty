@@ -6,6 +6,7 @@
  * @line_number: line
  * Return: No return
  */
+
 void pop(stack_t **stack, unsigned int line_number)
 {
 
