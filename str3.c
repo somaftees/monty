@@ -5,6 +5,7 @@
  * @num: number
  * Return: char pointer
  */
+
 char *get_int(int num)
 {
 	long num_value = 0;
