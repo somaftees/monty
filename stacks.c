@@ -5,6 +5,7 @@
  * @stack: pointer
  * Return: EXIT SUCCESS
  */
+
 int create_node_stack(stack_t **stack)
 {
 	stack_t *check_p;
