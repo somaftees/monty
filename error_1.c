@@ -1,10 +1,10 @@
 #include "monty.h"
 
-
 /**
  * stderr_usage - usage
  * Return: EXIT_FAILURE
  */
+
 void stderr_usage(void)
 {
 	fprintf(stderr, "USAGE: monty file\n");
