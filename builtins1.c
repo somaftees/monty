@@ -4,7 +4,6 @@
  * push - Add node
  * @stack: head
  * @line_number: line number of the instruction
- *
  * Return: No return
  */
 
