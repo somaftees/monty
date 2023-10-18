@@ -1,7 +1,5 @@
 #include "monty.h"
 
-globales_t globalvar = {NULL, NULL, NULL};
-
 /**
  * main - entry point.
  * @argc: count of argument.
@@ -11,6 +9,7 @@ globales_t globalvar = {NULL, NULL, NULL};
 
 int main(int argc, char **argv)
 {
+	globales_t globalvar = {NULL, NULL, NULL};
 	char *token_type = NULL;
 	size_t buf_line_s = 0;
 	int line_number = 0, flag = 0, flag2 = 0;
