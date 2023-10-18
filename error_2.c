@@ -5,6 +5,7 @@
  * @line_number: line
  * Return: EXIT_FAILURE.
  */
+
 void pop_e(unsigned int line_number)
 {
 	fprintf(stderr, "L%u: can't pop an empty stack\n", line_number);
