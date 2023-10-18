@@ -3,10 +3,10 @@
 globales_t globalvar = {NULL, NULL, NULL};
 
 /**
- * main - entry point
- * @argc: count of argument
- * @argv: pointer
- * Return: EXIT_SUCCESS or EXIT_FAILURE
+ * main - entry point.
+ * @argc: count of argument.
+ * @argv: pointer.
+ * Return: EXIT_SUCCESS or EXIT_FAILURE.
  */
 
 int main(int argc, char **argv)
